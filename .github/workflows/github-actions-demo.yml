@@ -5,4 +5,4 @@ jobs:
   Explore-GitHub-Actions:
     runs-on: ubuntu-latest
     steps:
-      - run: bash github/workflow/github-actions-demo.sh 
+      - run: bash .github/workflow/github-actions-demo.sh 
