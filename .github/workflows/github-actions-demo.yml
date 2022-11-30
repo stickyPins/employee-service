@@ -5,4 +5,7 @@ jobs:
   Explore-GitHub-Actions:
     runs-on: ubuntu-latest
     steps:
+      - run: pwd
+      - run: ls -lart
+      - run: find . -type f -name github-actions-demo.sh
       - run: bash .github/workflows/github-actions-demo.sh 
